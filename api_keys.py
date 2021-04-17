@@ -1,5 +1,5 @@
 # OpenWeatherMap API Key
-weather_api_key = "626df054d93c9435c037fa6c4c754e94"
+weather_api_key = "took out for public use"
 
 # Google API Key
-g_key = "AIzaSyCVm-hUMUHjZeNta9gWSaMgM9_TqXU7_r0"
+g_key = "took out for public use"
