@@ -1,4 +1,5 @@
-# API_challenge -- 
+# API_challenge -- <br>
+
 In this example, i'll be creating a Python script to visualize the weather of 500+ cities across the world of varying distance from the equator. To accomplish this, i'll be utilizing a simple Python library, the OpenWeatherMap API, and a little common sense to create a representative model of weather across world cities.
 The first requirement is to create a series of scatter plots to showcase the following relationships:
 
@@ -20,16 +21,13 @@ Southern Hemisphere - Wind Speed (mph) vs. Latitude <br>
 
 ![plot](./Weatherpy_North_Max_temp_lregress.png) <br>
 
-Randomly select at least 500 unique (non-repeat) cities based on latitude and longitude.
-Perform a weather check on each of the cities using a series of successive API calls.
-Include a print log of each city as it's being processed with the city number and city name.
-Save a CSV of all retrieved data and a PNG image for each scatter plot.
-
+I randomly selected 500 unique (non-repeat) cities based on latitude and longitude.
+Performed a weather check on each of the cities using a series of successive API calls.
+Included a print log of each city as it's being processed with the city number and city name.
+Then saved a CSV of all retrieved data and a PNG image for each scatter plot.
 
 Part II - VacationPy
-Now let's use our skills in working with weather data to plan future vacations. Use jupyter-gmaps and the Google Places API for this part of the assignment.
 
-Create a heat map that displays the humidity for every city from Part I.
-
+I used jupyter-geomaps and the Google Places API to create a heat map that displays the humidity for every city from the first part.
 
 ![plot](./hotel_map.png)
